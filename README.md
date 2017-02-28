@@ -1,32 +1,40 @@
-QuickStart Guide : 
-1) Make sure the Scene has an 'EventSystem' GameObject present.
-2) Add The 'HyperText' script to either a 3D GameObject or Unity UI and follow the corresponding intructions.
-3) Set the 'Mode' to 'UI' or 'Game Object' based on what you placed the script on.
-4) Set the desired internet link in the 'Hyperlink String' variable in the inspector.
+# EasyHyperText-Unity
+- An easy way to implement hyperlinking for 3D Gameobjects and UI Elements in the Unity Game Engine
+
+## Installation :
+- Open the folder as a project in the Unity Game Engine 
+  OR
+- Create a project in the Unity Game Engine and import the included 'EasyHyperText-Unity.unitypackage'.
+
+## Usage : 
+- Make sure the Scene has an 'EventSystem' GameObject present.
+- Add The 'HyperText' script to either a 3D GameObject or Unity UI and follow the corresponding intructions.
+- Set the 'Mode' to 'UI' or 'Game Object' based on what you placed the script on.
+- Set the desired internet link in the 'Hyperlink String' variable in the inspector.
 
 
-2D GameObject HyperLink Instructions:
+# 2D Unity UI Elements HyperLink Instructions:
 ------------------------------
-1) 'HyperText' must be placed on Unity UI Objects.
-2) 'HyperText' requires the 'Mode' to be set to 'UI'.
-3) 'HyperText' requires an 'Event Trigger' Component to be present on the UI.
+- 'HyperText' must be placed on Unity UI Objects.
+- 'HyperText' requires the 'Mode' to be set to 'UI'.
+- 'HyperText' requires an 'Event Trigger' Component to be present on the UI.
 
-3D Unity UI HyperLink Instructions:
+# 3D GameObject HyperLink Instructions:
 ------------------------------
-1) 'HyperText' must be placed on 3D GameObjects.
-2) 'HyperText' requires the 'Mode' to be set to 'Game Object'.
-3) 'HyperText' DOES NOT require an 'Event Trigger' Component to be present on the UI.
-4) 'HyperText' requires the 3D GameObject to have a collider of some type. If not provided, the script will automatically add a mesh collider to the object.
+- 'HyperText' must be placed on 3D GameObjects.
+- 'HyperText' requires the 'Mode' to be set to 'Game Object'.
+- 'HyperText' DOES NOT require an 'Event Trigger' Component to be present on the UI.
+- 'HyperText' requires the 3D GameObject to have a collider of some type. If not provided, the script will automatically add a mesh collider to the object.
 
-EXTRA INFO:
+# EXTRA INFO:
 ------------------------------
-1) Check the 'Example' scene for a demo.
-2) The script code is fully documented.
+- Check the 'Example' scene for a demo.
+- The script is fully documented.
 
 
 
 
-LICENSE:
+## LICENSE:
 ------------------------------
 MIT License
 

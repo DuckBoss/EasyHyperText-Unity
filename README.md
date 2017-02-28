@@ -13,20 +13,20 @@
 - Set the desired internet link in the 'Hyperlink String' variable in the inspector.
 
 
-# 2D Unity UI Elements HyperLink Instructions:
+## 2D Unity UI Elements HyperLink Instructions:
 ------------------------------
 - 'HyperText' must be placed on Unity UI Objects.
 - 'HyperText' requires the 'Mode' to be set to 'UI'.
 - 'HyperText' requires an 'Event Trigger' Component to be present on the UI.
 
-# 3D GameObject HyperLink Instructions:
+## 3D GameObject HyperLink Instructions:
 ------------------------------
 - 'HyperText' must be placed on 3D GameObjects.
 - 'HyperText' requires the 'Mode' to be set to 'Game Object'.
 - 'HyperText' DOES NOT require an 'Event Trigger' Component to be present on the UI.
 - 'HyperText' requires the 3D GameObject to have a collider of some type. If not provided, the script will automatically add a mesh collider to the object.
 
-# EXTRA INFO:
+## Extra Information:
 ------------------------------
 - Check the 'Example' scene for a demo.
 - The script is fully documented.
@@ -34,7 +34,7 @@
 
 
 
-## LICENSE:
+# License:
 ------------------------------
 MIT License
 

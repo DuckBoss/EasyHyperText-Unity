@@ -1,28 +1,27 @@
 QuickStart Guide : 
-------------------------------
 1) Make sure the Scene has an 'EventSystem' GameObject present.
 2) Add The 'HyperText' script to either a 3D GameObject or Unity UI and follow the corresponding intructions.
 3) Set the 'Mode' to 'UI' or 'Game Object' based on what you placed the script on.
 4) Set the desired internet link in the 'Hyperlink String' variable in the inspector.
-------------------------------
+
 
 2D GameObject HyperLink Instructions:
 ------------------------------
-# 'HyperText' must be placed on Unity UI Objects.
-# 'HyperText' requires the 'Mode' to be set to 'UI'.
-# 'HyperText' requires an 'Event Trigger' Component to be present on the UI.
+1) 'HyperText' must be placed on Unity UI Objects.
+2) 'HyperText' requires the 'Mode' to be set to 'UI'.
+3) 'HyperText' requires an 'Event Trigger' Component to be present on the UI.
 
 3D Unity UI HyperLink Instructions:
 ------------------------------
-# 'HyperText' must be placed on 3D GameObjects.
-# 'HyperText' requires the 'Mode' to be set to 'Game Object'.
-# 'HyperText' DOES NOT require an 'Event Trigger' Component to be present on the UI.
-# 'HyperText' requires the 3D GameObject to have a collider of some type. If not provided, the script will automatically add a mesh collider to the object.
+1) 'HyperText' must be placed on 3D GameObjects.
+2) 'HyperText' requires the 'Mode' to be set to 'Game Object'.
+3) 'HyperText' DOES NOT require an 'Event Trigger' Component to be present on the UI.
+4) 'HyperText' requires the 3D GameObject to have a collider of some type. If not provided, the script will automatically add a mesh collider to the object.
 
 EXTRA INFO:
 ------------------------------
-# Check the 'Example' scene for a demo.
-# The script code is fully documented.
+1) Check the 'Example' scene for a demo.
+2) The script code is fully documented.
 
 
 
@@ -52,7 +51,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-# Basically this license gives permissions for:
+Basically this license gives permissions for:
 - Commercial Use
 - Distribution
 - Modification

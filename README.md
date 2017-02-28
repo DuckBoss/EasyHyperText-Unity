@@ -15,15 +15,15 @@
 
 ## 2D Unity UI Elements HyperLink Instructions:
 ------------------------------
-- 'HyperText' must be placed on Unity UI Objects.
-- 'HyperText' requires the 'Mode' to be set to 'UI'.
-- 'HyperText' requires an 'Event Trigger' Component to be present on the UI.
+- Place the 'HyperText' Script on a UI Element. (e.g. Text UI Object)
+- Set the 'Mode' to 'UI' on the script.
+- Add a 'Event Trigger' Component on the UI object if it is not already there.
 
 ## 3D GameObject HyperLink Instructions:
 ------------------------------
-- 'HyperText' must be placed on 3D GameObjects.
-- 'HyperText' requires the 'Mode' to be set to 'Game Object'.
-- 'HyperText' DOES NOT require an 'Event Trigger' Component to be present on the UI.
+- Place the 'HyperText' Script on a 3D GameObject. (e.g. Cube GameObject)
+- Set the 'Mode' to 'GameObject' on the script.
+- 'HyperText' DOES NOT require an 'Event Trigger' Component to be present on the object.
 - 'HyperText' requires the 3D GameObject to have a collider of some type. If not provided, the script will automatically add a mesh collider to the object.
 
 ## Extra Information:
